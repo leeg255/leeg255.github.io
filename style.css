@@ -1,15 +1,7 @@
 body {
-  /* Old browsers */
-  background: #FFFFFF;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(0deg, #FFFFFF, #62EEE8);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(0deg, #FFFFFF, #62EEE8);
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(135,255,255,1) 100%;
   margin: 0;
   padding: 0;
 }
 
-.pfooter {
-  font-family: Helvetica;
-  text-align: center:
-}
