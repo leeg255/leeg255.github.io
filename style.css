@@ -13,12 +13,12 @@ body {
 
 p {
   text-align: left;
-  font-family: Arial;
+  font-family: Arial
   font-size: 18px;
 }
 
 .pfooter {
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
