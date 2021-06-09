@@ -26,6 +26,10 @@ p {
   padding-bottom: 2rem;
 }
 
+.logo {
+  padding: 40px;
+}
+
 .pfooter {
   text-align: center;
   font-family: 'Roboto', sans-serif;
