@@ -59,7 +59,7 @@ header {
 .pfooter {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   color: rgba(0,0,0,100);
   position: absolute;
   bottom: 0;
@@ -80,10 +80,10 @@ h2 {
 
 p {
   font-family: 'Arial';
-  font-size: 12px;
+  font-size: 10px;
 }
 
-.chinese {
+.videos {
   margin: auto;
   width: 50%;
   height: 35%;
