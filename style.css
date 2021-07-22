@@ -12,11 +12,6 @@ body {
   padding: 0;
 }
 
-#navbar {
-  color: blue;
-  height: 100px;
-}
-
 .logo {
   text-align: center;
   top: 10px;
@@ -27,7 +22,7 @@ body {
 #navbar .link a {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  list-style-type: none;
+  list-style: none;
   display: inline;
   padding: 0.5rem 1rem;
   background-color: white;
