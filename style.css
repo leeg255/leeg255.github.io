@@ -37,7 +37,9 @@ body {
   background-color: white;
   color: black;
   text-decoration: none;
+  top: 5px;
   left: 420px;
+  position: absolute;
 }
 
 .navli:hover {
