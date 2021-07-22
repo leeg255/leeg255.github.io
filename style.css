@@ -67,7 +67,7 @@ p {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 0.9rem;
+  height: 1.2rem;
   user-select: none; /* supported by Chrome and Opera */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
