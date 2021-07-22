@@ -11,16 +11,12 @@ body {
   margin: 0 auto;
   padding: 0;
 }
-/*
-#page-container {
-  position: relative;
-  min-height: 100vh;
+
+#navbar {
+  color: blue;
+  height: 100px;
 }
 
-#content-wrap {
-  padding-bottom: 2rem;
-}
-*/
 .logo {
   text-align: center;
   top: 10px;
