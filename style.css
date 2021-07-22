@@ -79,5 +79,7 @@ p {
 }
 
 .chinese {
-  
+  margin: auto;
+  width: 50%;
+  height: 35%;
 }
