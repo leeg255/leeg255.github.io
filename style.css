@@ -28,7 +28,6 @@ header {
 
 .navli {
   list-style: none;
-  text-decoration: none;
 }
 
 .navli li {
@@ -37,9 +36,10 @@ header {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: black;
-  top: 8px;
+  top: 0px;
   left: 420px;
   position: relative;
+  text-decoration: none;
 }
 
 .navli li a {
