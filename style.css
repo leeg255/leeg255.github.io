@@ -31,7 +31,7 @@ header {
 }
 
 .navli li {
-  display: inline-block;
+  display: inline;
   padding: 0.5rem 1rem;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -43,7 +43,8 @@ header {
 }
 
 .navli li a {
-  transition: all 0.25s ease 0s;
+  transition: all 0.2s ease 0s;
+  text-decoration: none;
 }
 
 .navli li a:visited {
