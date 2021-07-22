@@ -23,6 +23,37 @@ header {
   top: 10px;
   left: 70px;
   position: absolute;
+  cursor: pointer;
+}
+
+.navli {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navli li {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: black;
+  top: 8px;
+  left: 420px;
+  position: relative;
+}
+
+.navli li a {
+  transition: all 0.25s ease 0s;
+}
+
+.navli li a:visited {
+  background-color: white;
+  color: black;
+}
+
+.navli li a:hover {
+  background-color: #d2e69c;
+  color: #511281;
 }
 
 #navbar .link a {
