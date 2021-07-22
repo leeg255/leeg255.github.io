@@ -28,7 +28,7 @@ body {
   position: absolute;
 }
 
-.navli li a {
+.navli a {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   list-style-type: none;
@@ -42,19 +42,19 @@ body {
   position: relative;
 }
 
-.navli li a:visited {
+.navli a:visited {
   background-color: white;
   color: black;
   text-decoration: none;
 }
 
-.navli li a:hover {
+.navli a:hover {
   background-color: #d2e69c;
   color: #511281;
   text-decoration: none;
 }
 
-.navli li a:active {
+.navli a:active {
   background-color: #d2e69c;
   text-decoration: none;
 }
