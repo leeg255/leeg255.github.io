@@ -34,11 +34,22 @@ body {
   list-style-type: none;
   display: inline;
   padding: 0.5rem 1rem;
-  border: 1px solid;
-  background-color: #d2e69c;
+  background-color: white;
   color: black;
   position: static;
   text-decoration: none;
+}
+
+.navli:hover {
+  background-color: #d2e69c;
+}
+
+.navli:active {
+  background-color: #d2e69c;
+}
+
+.navli:visited {
+  background-color: #d2e69c;
 }
 
 p {
