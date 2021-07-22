@@ -28,7 +28,7 @@ body {
   position: absolute;
 }
 
-#navbar .navli li {
+#navbar .navli li a {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   list-style-type: none;
@@ -42,19 +42,19 @@ body {
   position: relative;
 }
 
-#navbar .navli li:visited {
+#navbar .navli li a:visited {
   background-color: white;
   color: black;
   text-decoration: none;
 }
 
-#navbar .navli li:hover {
+#navbar .navli li a:hover {
   background-color: #d2e69c;
   color: #511281;
   text-decoration: none;
 }
 
-#navbar .navli li:active {
+#navbar .navli li a:active {
   background-color: #d2e69c;
   text-decoration: none;
 }
