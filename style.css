@@ -28,6 +28,13 @@ body {
   left: 100px;
 }
 
+.navli {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
 p {
   text-align: left;
   font-family: 'Arial'
