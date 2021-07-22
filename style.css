@@ -35,8 +35,10 @@ body {
   display: inline;
   padding: 0.75rem 2rem;
   border: 1px solid;
-  color: rgba(0,0,0,255);
+  background-color: #d2e69c;
+  color: black;
   position: static;
+  text-decoration: none;
 }
 
 p {
