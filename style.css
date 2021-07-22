@@ -13,7 +13,6 @@ body {
 }
 
 header {
-  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,9 +20,7 @@ header {
 }
 
 .logo {
-  /*top: 10px;
-  left: 70px;
-  position: absolute;*/
+  position: fixed;
 }
 
 .navli {
@@ -37,7 +34,6 @@ header {
   font-size: 20px;
   color: black;
   top: 0px;
-  /*left: 420px;*/
   position: relative;
   text-decoration: none;
 }
@@ -55,37 +51,6 @@ header {
 .navli li a:hover {
   background-color: #d2e69c;
   color: #511281;
-}
-
-#navbar .link a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  list-style: none;
-  display: inline;
-  padding: 0.5rem 1rem;
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  top: 8px;
-  left: 420px;
-  position: relative;
-}
-
-#navbar .link a:visited {
-  background-color: white;
-  color: black;
-  text-decoration: none;
-}
-
-#navbar .link a:hover {
-  background-color: #d2e69c;
-  color: #511281;
-  text-decoration: none;
-}
-
-#navbar .link a:active {
-  background-color: #d2e69c;
-  text-decoration: none;
 }
 
 p {
