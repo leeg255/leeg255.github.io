@@ -42,15 +42,15 @@ body {
   position: relative;
 }
 
+.navli:visited {
+  background-color: white;
+}
+
 .navli:hover {
   background-color: #d2e69c;
 }
 
 .navli:active {
-  background-color: #d2e69c;
-}
-
-.navli:visited {
   background-color: #d2e69c;
 }
 
