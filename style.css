@@ -56,12 +56,6 @@ header {
   color: #511281;
 }
 
-p {
-  text-align: left;
-  font-family: 'Arial';
-  font-size: 20px;
-}
-
 .pfooter {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -76,4 +70,14 @@ p {
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+p {
+  text-align: left;
+  font-family: 'Arial';
+  font-size: 20px;
+}
+
+.chinese {
+  
 }
