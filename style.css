@@ -51,10 +51,12 @@ body {
 .navli:hover {
   background-color: #d2e69c;
   color: #511281;
+  text-decoration: none;
 }
 
 .navli:active {
   background-color: #d2e69c;
+  text-decoration: none;
 }
 
 p {
