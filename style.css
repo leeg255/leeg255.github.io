@@ -23,7 +23,6 @@ body {
 */
 .logo {
   text-align: center;
-  position: fixed;
   top: 10px;
   left: 100px;
 }
@@ -36,7 +35,6 @@ body {
   padding: 0.5rem 1rem;
   background-color: white;
   color: black;
-  position: fixed;
   text-decoration: none;
   left: 420px;
 }
