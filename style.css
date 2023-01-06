@@ -16,18 +16,21 @@ html {
   margin: 0px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
+.header {
   text-align: center;
+  background-color:rgb(255, 255, 255);
   position: sticky;
   top: auto;
-  padding: 20px 30px;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .navbar {
   overflow: hidden;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
   text-align: center;
@@ -35,23 +38,24 @@ header {
 
 .navbar a {
   display: inline-block;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: 'Raleway';
   font-size: 20px;
   padding: 10px;
   text-align: center;
   text-decoration: none;
   width: 100px;
+  border-radius: 50px;
 }
 
 .navbar a:visited {
   background-color: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .navbar a:hover {
-  background-color: rgb(251, 255, 113);
-  color: rgb(0, 0, 0);
+  background-color: rgb(113, 60, 148);
+  color: rgb(255, 255, 255);
   transition: all 0.25s ease 0s;
 }
 
