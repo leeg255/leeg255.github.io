@@ -40,11 +40,11 @@ html {
   display: inline-block;
   color: rgb(255, 255, 255);
   font-family: 'Raleway';
-  font-size: 1.5vw;
-  padding: 15px;
+  font-size: 1.25vw;
+  padding: 1vw;
   text-align: center;
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: 2vw;
 }
 
 .navbar a:visited {
@@ -93,11 +93,17 @@ h1 {
   }
 
   .navbar a {
-    padding: 15px;
+    font-size: 5vw;
+    padding: 3vw;
+    border-radius: 5vw;
   }
 
   .page-body {
     padding: 5px;
+  }
+
+  h1 {
+    font-size: 8vw;
   }
 
   .column {
