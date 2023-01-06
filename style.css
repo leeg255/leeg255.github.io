@@ -11,7 +11,8 @@ body {
 }
 
 html {
-  background: rgb(255,255,255);
+  background: url('rye.png') no-repeat center fixed;
+  background-size: cover;
   height: 100%;
   margin: 0px;
 }
@@ -32,6 +33,7 @@ html {
   overflow: hidden;
   background-color: rgb(255, 255, 255);
   position: sticky;
+  padding: 5px;
   top: 0;
   text-align: center;
 }
