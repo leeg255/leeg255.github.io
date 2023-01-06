@@ -27,3 +27,64 @@ header {
   padding: 20px 30px;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+.navbar a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway';
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+}
+
+.navbar a:visited {
+  background-color: none;
+  color: rgb(255, 255, 255);
+}
+
+.navbar a:hover {
+  background-color: rgb(251, 255, 113);
+  color: rgb(0, 0, 0);
+  transition: all 0.25s ease 0s;
+}
+
+.page-body {
+  background: rgb(255, 255, 255);
+  padding: 25px 50px 25px 50px;
+  flex: 1;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Raleway';
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    margin: 0px;
+  }
+
+  .navbar a {
+    padding: 15px;
+  }
+
+  .page-body {
+    padding: 5px;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
