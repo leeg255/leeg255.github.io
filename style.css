@@ -11,17 +11,13 @@ body {
 }
 
 html {
-  /*background: url('rye.png') no-repeat center fixed;
-  background-size: cover;
-  height: 100vh;
-  margin: 0px;*/
   font-family: Raleway;
   height: 100vh;
   margin: 0;
 }
 
 .hr-bg {
-  background: url('rye.png') no-repeat center fixed;
+  background: url('rye.png') no-repeat center;
   background-size: cover;
   height: 100vh;
   margin: 0px;
@@ -44,7 +40,7 @@ html {
   padding: 5px;
   position: sticky;
   text-align: center;
-  top: 0;
+  top: auto;
 }
 
 .navbar a {
@@ -76,11 +72,9 @@ html {
 }
 
 .footer {
-  bottom: 0;
   color: rgb(255, 255, 255);
-  opacity: 0.25;
+  opacity: 0.15;
   padding: 10px;
-  position: fixed;
   text-align: center;
   user-select: none; /* supported by Chrome and Opera */
   width: 100%;
@@ -98,6 +92,7 @@ h1 {
 }
 
 p {
+  color: rgb(0, 0, 0);
   font-family: 'Raleway';
   font-size: 1.25vw;
   padding: 10px;
