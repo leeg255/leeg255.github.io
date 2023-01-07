@@ -78,6 +78,7 @@ html {
 .footer {
   bottom: 0;
   color: rgb(255, 255, 255);
+  opacity: 0.25;
   padding: 10px;
   position: fixed;
   text-align: center;
