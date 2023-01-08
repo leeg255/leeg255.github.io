@@ -40,7 +40,7 @@ section:nth-of-type(odd) {
   background: black;
 }
 
-.hr-bg {
+.bg1 {
   background: url('rye.png') no-repeat center;
   background-size: cover;
   width: 100vw;
@@ -98,11 +98,11 @@ section:nth-of-type(odd) {
 }
 
 .footer {
-  bottom: 0;
+  color: rgb(255, 255, 255);
+  bottom: 10px;
   left: 0;
-  opacity: 0.15;
   padding: 10px;
-  position: fixed;
+  position: absolute;
   text-align: center;
   width: 100%;
   user-select: none; /* supported by Chrome and Opera */
@@ -160,6 +160,10 @@ p {
 
   .page-body {
     padding: 5px;
+  }
+
+  .footer {
+    bottom: 5px;
   }
 
   h1 {
