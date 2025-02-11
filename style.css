@@ -64,6 +64,34 @@ section:nth-of-type(odd) {
   margin: 0px;
 }
 
+.bg4 {
+  background: url('bg/sheko.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.bg5 {
+  background: url('bg/longpan.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
 .header {
   color: rgb(255, 255, 255);
   padding-top: 25px;
@@ -129,23 +157,72 @@ section:nth-of-type(odd) {
 }
 
 h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   font-size: 2.5vw;
   padding: 10px;
   text-align: center;
 }
 
 h2 {
-  color: rgb(0, 0, 0);
-  font-size: 1.75vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
   padding: 10px;
   text-align: center;
 }
 
 p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   color: rgb(0, 0, 0);
   font-size: 1.25vw;
   padding: 10px;
   text-align: center;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.pwhite {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 1.25vw;
+  padding: 10px;
+  text-align: center;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.pdf {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  height: 70%;
+  width: 50%;
+}
+
+.selectDisable {
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .column {
