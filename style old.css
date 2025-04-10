@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, section {
+  block-size: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+html {
+  font-family: Raleway;
+  height: 100vh;
+  margin: 0;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;  
+}
+
+section:nth-of-type(even) {
+  color: black;
+  background: white;
+}
+
+section:nth-of-type(odd) {
+  color: white;
+  background: black;
+}
+
+.bg1 {
+  background: url('bg/rye.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.bg2 {
+  background: url('bg/gaudi.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.bg3 {
+  background: url('bg/roberts.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.bg4 {
+  background: url('bg/sheko.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.bg5 {
+  background: url('bg/longpan.png') no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.header {
+  color: rgb(255, 255, 255);
+  padding-top: 25px;
+  position: sticky;
+  top: auto;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.navbar {
+  overflow: hidden;
+  padding: 5px;
+  position: sticky;
+  text-align: center;
+  top: auto;
+}
+
+.navbar a {
+  border-radius: 2vw;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 1.25vw;
+  padding: 1vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar a:visited {
+  background-color: none;
+  color: rgb(255, 255, 255);
+}
+
+.navbar a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(113, 60, 148);
+  transition: all 0.25s ease 0s;
+}
+
+.page-body {
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  margin: auto;
+  padding: 5vw;
+  width: 50%;
+}
+
+.footer {
+  color: rgb(255, 255, 255);
+  bottom: 10px;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 2.5vw;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: rgb(0, 0, 0);
+  font-size: 1.25vw;
+  padding: 10px;
+  text-align: center;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.pwhite {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 1.25vw;
+  padding: 10px;
+  text-align: center;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.pdf {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  height: 70%;
+  width: 50%;
+}
+
+.selectDisable {
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    margin: 0px;
+  }
+
+  .header{
+    padding-top: 5px;
+  }
+
+  .navbar a {
+    font-size: 6vw;
+    padding: 3vw;
+    border-radius: 5vw;
+  }
+
+  .page-body {
+    padding: 5px;
+  }
+
+  .footer {
+    bottom: 5px;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  h2 {
+    font-size: 7vw;
+  }
+
+  p {
+    font-size: 6vw;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
