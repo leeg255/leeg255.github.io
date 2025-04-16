@@ -5,77 +5,42 @@
   <link rel="icon" href="/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <html>
 <body>
-  <div class="header">
-    <h1>Gavin Lee</h1>
+  <div class="logo">
+    <h1>gavin lee</h1>
+    <a href="">test</a>
+    <a href="">test</a>
+    <a href="">test</a>
   </div>
 
-  <div class="navbar">
-    <a href="https://leega.vin">Home</a>
-    <a href="#">Info</a>
-    <a href="#">Resume</a>
-    <a href="#">About</a>
+  <div class="page-body">
+    <h1>Tickets</h1>
+
+    <div>
+      <button type="button" class="collapsible">
+        <table style="width:100%">
+          <tr>
+            <th>A</th>
+            <th>A</th>
+            <th>A</th>
+            <th>A</th>
+            <th>A</th>
+          </tr>
+        </table>
+      </button>
+      <div class="content">
+        <p>test test test test test test test test test test test test test test test test test</p>
+      </div>
+    </div>
   </div>
 
-  <div class="body">
-    <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-    <p>testtesttesttest</p>
-  </div>
-
+  <!-- Javascript for scroll to top button -->
   <button onclick="topFunction()" id="topButton" title="Go to top">top</button>
   <script>
         // Get the button:
@@ -93,6 +58,24 @@
     function topFunction() {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
+  <!-- Javascript for collapsibles -->
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
     }
   </script>
 </body>
