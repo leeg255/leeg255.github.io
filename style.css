@@ -59,40 +59,72 @@ hr.rounded {
   margin-bottom: 20px;
 }
 
-/* Collapsible for FAQ page */
+/* Collapsible */
 .collapsible {
   font-family: 'Chakra Petch';
   background-color: #afafaf;
   cursor: pointer;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 10px;
   width: 100%;
+  height: 50px;
   border: none;
   text-align: left;
   outline: none;
   font-size: 18px;
 }
 
-/* Collapsible state style for FAQ page */
+/* Collapsible state style */
 .active, .collapsible:hover {
   background-color: #2bc7db;
   transition: all 0.25s ease 0s;
 }
 
-/* Collapsible hidden content for FAQ page */
+/* Collapsible hidden content */
 .content {
   color: #2bc7db;
+  text-align: left;
   text-wrap: wrap;
   padding: 0 18px;
+  margin-top: 0px;
   display: none;
   overflow: hidden;
   background-color: #1a256e;
 }
 
 /* Table */
-th {
-  padding-left: 0px;
-  padding-right: 0px;
+table, td, th, tr {
+  overflow: hidden;
+  table-layout: fixed;
+  padding: 0px;
+  padding-left: 5px;
+  text-align: left;
+  /* border: 1px solid black; */
+}
+
+/* Status - Closed */
+.status-closed {
+  background-color: #aaffaa;
+  color: #000000;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+/* Image */
+.image {
+  width: fit-content;
+  max-width: 100%;
+  padding: 5px;
+}
+
+/* PDF */
+.pdf {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+  height: 75vh;
 }
 
 /* Fonts */
@@ -129,6 +161,18 @@ th {
   font-family: "Chakra Petch", sans-serif;
   font-weight: 700;
   font-style: italic;
+}
+
+/* Selection Color */
+::selection {
+  color: #000000;
+  background: #e3ff67;
+}
+
+/* Selection Color for Firefox*/
+::-moz-selection {
+  color: #000000;
+  background: #e3ff67;
 }
 
 /* Scroll to Top Button */
