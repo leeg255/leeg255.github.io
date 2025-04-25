@@ -62,8 +62,7 @@ hr.rounded {
   font-size: 18px;
   background-color: #afafaf;
   cursor: pointer;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   margin-top: 10px;
   width: 100%;
   height: auto;
@@ -211,8 +210,7 @@ table, td, th, tr {
   }
   .collapsible {
     font-size: 16px;
-    padding-left: 0px;
-    padding-right: 10px;
+    padding: 5px;
     margin-top: 10px;
     width: 100%;
   }
