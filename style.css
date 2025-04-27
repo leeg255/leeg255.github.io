@@ -4,6 +4,23 @@ html {
   text-wrap: wrap;
 }
 
+.nav {
+  color: #e3ff67;
+  font-size: 40px;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  top: auto;
+  z-index: 2;
+  position: fixed;
+  overflow-x: hidden;
+  margin: auto;
+  padding: 15px;
+  cursor: pointer;
+}
+
 .logo {
   background-color: #1a256e;
   color: #2bc7db;
@@ -201,6 +218,48 @@ table, td, th, tr {
 #topButton:hover {
   background-color: #2bc7db;
   transition: all 0.25s ease 0s;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 99; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.25s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 26px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #e3ff67;
+  transition: all 0.25s ease 0s;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
 }
 
 @media screen and (max-width: 900px) {
