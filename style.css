@@ -112,6 +112,10 @@ hr.rounded {
   background-color: #1a256e;
 }
 
+.content a {
+  color: #e3ff67;
+}
+
 /* Table */
 table, td, th, tr {
   overflow: hidden;
